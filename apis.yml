@@ -26,7 +26,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-reason: domain localbushel.com listed for sale on HugeDomains; no live website or API surface (probed 2026-07-20)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
