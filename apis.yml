@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://localbushel.com
+    status: 302
+    note: declared website redirects to hugedomains.com — a domain sales/parking service, so the domain
+      has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://localbushel.com', status: 302, note: 'declared website redirects to hugedomains.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/local-bushel.png
 name: Local Bushel
 description: Local Bushel is a company surfaced as a portfolio company of 500-global, battery-ventures
@@ -38,12 +40,14 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-reason: domain localbushel.com listed for sale on HugeDomains; no live website or API surface (probed 2026-07-20)
+x-status-reason: domain localbushel.com listed for sale on HugeDomains; no live website or API surface
+  (probed 2026-07-20)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
